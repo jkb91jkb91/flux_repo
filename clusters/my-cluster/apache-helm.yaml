@@ -6,10 +6,10 @@ metadata:
 spec:
   interval: 1m
   chart:
-  ¦ spec:
-  ¦ ¦ chart: ./charts/busybox
-  ¦ ¦ sourceRef:
-  ¦ ¦ ¦ kind: GitRepository
-  ¦ ¦ ¦ name: flux-system
-  ¦ ¦ ¦ namespace: flux-system
-  ¦ ¦ interval: 1m
+    spec:
+      chart: ./charts/busybox
+      sourceRef:
+        kind: GitRepository
+        name: flux-system
+        namespace: flux-system
+      interval: 1m
